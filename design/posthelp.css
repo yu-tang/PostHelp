@@ -1,0 +1,86 @@
+/*
+These CSSs refer to VanillaForums.org.
+http://vanillaforums.org/themes/vforg/design/custom.css
+They hold Copyright.
+So please modify for fitting your image.
+*/
+
+/* Help Info on Post Discussion Form */
+body.Post #Content {
+	float: none;
+}
+#DiscussionForm h2 {
+	border: none;
+	font-size: 18px;
+}
+#DiscussionForm form {
+	display: block;
+	padding-right: 270px;
+/*	background: #F6DAA8;*/
+	border: none;
+}
+#DiscussionForm label {
+/*	color: #744000;*/
+}
+#DiscussionForm textarea,
+#DiscussionForm input.InputBox {
+   width: 100%;
+	display: block;
+}
+#DiscussionForm {
+	position: relative;
+}
+.PostHelp {
+	top: 48px;
+	right: 20px;
+	position: absolute;
+	width: 220px;
+	background: #FEF7DF;
+	border: 1px solid #EEC38A;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	font-size: 11px;
+	color: #B76600;
+}
+#Content .PostHelp h4 {
+	font-size: 14px;
+	font-weight: bold;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+.PostHelp .Help {
+	padding: 4px 8px;
+}
+.Help ul { margin: 0 !important; }
+.Help ul li {
+	list-style: disc;
+	margin-left: 14px;
+}
+div.Examples {
+	padding-top: 12px;
+}
+div.Examples,
+div.Help {
+	font-size: 11px;
+}
+div.Examples div {
+	font-style: italic;
+}
+div.Examples div strong {
+	font-weight: bold;
+	font-style: normal;
+	display: inline-block;
+}
+div.Examples div.Good strong,
+div.Examples div.Bad strong {
+	/* text-shadow: 0 0px 3px #000; */
+	color: #fff;
+	border-radius: 3px;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+	line-height: 1;
+	padding: 2px 4px;
+}
+div.Examples div.Good strong { background: #0a0; }
+div.Examples div.Bad strong { background: #f00; }

@@ -1,0 +1,1 @@
+Original idea: [How to add the 'how to ask' information box when asking a new question on vanilla.org - Vanilla Forums](http://vanillaforums.org/discussion/comment/136031#Comment_136031 "How to add the 'how to ask' information box when asking a new question on vanilla.org - Vanilla Forums")
